@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSP obrigatória para extensões Manifest V3 -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self';">
+    <title>Linux Cheat Sheet</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="logo">
+                <div class="logo-icon">>_</div>
+                <span>LinuxCheat</span>
+            </div>
+            <nav class="nav-menu" id="categoryMenu">
+                <!-- Categories injected by JS -->
+            </nav>
+            <div class="sidebar-footer">
+                <p>v1.0.0 &bull; Edge Extension</p>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <header class="top-bar">
+                <div class="header-info">
+                    <h1 id="currentCategoryTitle">Sistema</h1>
+                    <p id="currentCategoryDesc">Comandos essenciais para gerenciamento e monitoramento de sistema.</p>
+                </div>
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Pesquisar comando...">
+                </div>
+            </header>
+
+            <section class="command-grid" id="commandGrid">
+                <!-- Command cards injected by JS -->
+            </section>
+        </main>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="copyToast" class="toast">✓ Comando copiado!</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
