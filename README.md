@@ -75,4 +75,4 @@ Este projeto está sob a licença MIT. Sinta-se à vontade para usar, modificar 
 
 ---
 
-> Desenvolvido com ❤️ por [LinuxCheat](https://github.com/eucainapereira)
+> Desenvolvido por Cainã Pereira
